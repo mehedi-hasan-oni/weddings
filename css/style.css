@@ -1,0 +1,2009 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    border: 0px !important;
+}
+
+a {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+.p0 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.margin-l-r {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.mr_15 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.clr {
+    clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p,
+address {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+body {
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* start common part css part */
+
+.mar_70 {
+    margin: 70px 0px;
+}
+
+.padd_100 {
+    padding: 100px 0px 100px;
+}
+
+.padd_85 {
+    padding: 85px 0px 85px;
+}
+
+.padd_75_100 {
+    padding: 75px 0px 75px;
+}
+
+.padd_75_20 {
+    padding: 85px 0px 25px;
+}
+
+.padd_70 {
+    padding: 70px 0px;
+}
+
+.mr_30 {
+    margin-bottom: 30px;
+}
+
+.mar_b_90 {
+    margin-bottom: 30px;
+}
+
+.padd_50 {
+    padding: 85px 0px 73px;
+}
+
+#gallery,
+#Wedding_Journal,
+#friends {
+    background: #f5f5f5;
+}
+
+
+/* end common part css */
+
+
+/* index2 color part css */
+
+#index2 .slide-desc h2,
+#index2 .common_hedding h2,
+#index2 .slide-desc .clor h6,
+#index2 .slide-desc a i,
+#index2 .coule_about h3 span,
+#index2 .coule_about ul li a i,
+#index2 .love_cl i,
+#index2 .weddin_plan h5,
+#index2 .blog_Wedding a,
+#index2 .friends_part ul li a i,
+#index2 .contact_about h5,
+#index2 .contact_about h2,
+#index2 .contact_about ul li a i,
+#index2 footer h4 a:hover {
+    color: #ffa07a;
+}
+
+#index2 .shahin_navbar li a:after,
+#index2 .shahin_navbar li a:before,
+#index2 .common_hedding h2::before,
+#index2 .common_hedding h2::after,
+#index2 .coule_about ul li:hover,
+#index2 .love_story::after,
+#index2 .love_story:hover .love_clc,
+#index2 .blog_Wedding:hover,
+#index2 .friends_part:hover,
+#index2 .contact_about ul li:hover a,
+#index2 .back-to-top i {
+    background: #ffa07a;
+}
+
+#index2 .shahin_navbar li a:hover,
+#index2 .shahin_navbar li.active,
+#index2 .shahin_navbar li.active a {
+    color: #ffa07a!important;
+}
+
+#index2 .navbar {
+    border-bottom: 2px solid #ffa07a;
+}
+
+#index2 .friends_part:hover .friend_img img {
+    border: 2px solid #ffa07a !important;
+}
+
+#index2 .coule_about img,
+#index2 .blog_Wedding img,
+#index2 .gly_img a img {
+    border-color: #ffa07a !important;
+}
+
+#index2 .contact_about ul li a,
+#index2 .friends_part ul li a,
+#index2 .blog_Wedding a {
+    border-color: #ffa07a;
+}
+
+#index2 .blog_Wedding:hover a {
+    color: #f1f1f1;
+    border-color: #f1f1f1;
+}
+
+#index2 .friends_part:hover ul li a {
+    border-color: #f1f1f1;
+}
+
+#index2 footer,
+#index2 .coule_about ul li,
+#index2 .love_clc {
+    border-color: #ffa07a;
+}
+
+#index2 .contact_about ul li a:hover i,
+#index2 .friends_part:hover ul li a i,
+#index2 .coule_about ul li:hover a i,
+#index2 .love_story:hover .love_clc i,
+#index2 .love_story:hover .weddin_plan h5 {
+    color: #f1f1f1;
+}
+
+#index2 .lb-outerContainer,
+#index2 .gly_img a::after,
+#index2 .gly_img_l a::after {
+    background: rgba(255, 160, 122, 0.8);
+}
+
+#index2 .shahin_from .col-md-12 textarea:hover,
+#index2 .shahin_from .col-md-12 textarea:focus,
+#index2 .shahin_from .col-md-6 input:hover,
+#index2 .shahin_from .col-md-6 input:focus {
+    border-color: #ffa07a;
+    color: #ffa07a;
+}
+
+#index2 .shahin_from .col-md-12 .sub-btn:hover {
+    border-color: #ffa07a;
+    color: #ffa07a;
+}
+
+
+/* index2 color part css end */
+
+
+/* home part css*/
+
+#index_perallax #home {
+    background: url(../images/banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#index_perallax #home .overlay {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    width: 100%;
+}
+
+
+/*animation css*/
+
+.demo .large-header {
+    background: url(../images/banner1.jpg);
+}
+
+.large-header {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+}
+
+.main-title {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+
+#home #slid_item li {
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#home #slid_item li .overlay {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+}
+
+.slide-desc {
+    min-height: 50vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(70%);
+}
+
+.slide-desc h2 {
+    color: #ff4c4c;
+    font-size: 48px !important;
+    line-height: 74px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+}
+
+.slide-desc .clor h2 {
+    color: #f1f1f1;
+}
+
+.slide-desc .clor .col-md-3 {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px 10px;
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.slide-desc .clor .col-md-3:before {
+    position: absolute;
+    content: "";
+    right: 0;
+    height: 35px;
+    top: 45px;
+    background: #999999;
+    width: 2px;
+}
+
+.slide-desc .clor .col-md-3:last-child:before {
+    height: 0;
+}
+
+.slide-desc .clor h6,
+.slide-desc h3 {
+    color: #f1f1f1;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+}
+
+.slide-desc .clor h6 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #ff4c4c;
+}
+
+.slide-desc p {
+    color: #eee;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+}
+
+.slide-desc a {
+    display: block;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.slide-desc a i {
+    color: #ff4c4c;
+    font-size: 25px;
+}
+
+.skdslider .slide-desc > p {
+    font-size: 16px;
+    line-height: 28px;
+    font-family: 'Raleway', sans-serif;
+    color: #f1f1f1;
+}
+
+
+/* end home part css */
+
+
+/* menu part css sart */
+ nav{
+        background: #f8f8f8;
+    }
+.navbar {
+    border-radius: 0px;
+    background: #f8f8f8;
+    border-bottom: 2px solid #ff4c4c;
+    z-index: 9999;
+}
+
+.icon-bar {
+    background: #333;
+}
+
+.navbar-brand img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin-top: -5px;
+}
+
+.shahin_menu_part {}
+
+.shahin_navbar li a {
+    color: #333333;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    display: block;
+    position: relative;
+    padding: 0px 17px;
+    line-height: 70px;
+    transition: all linear .3s;
+}
+
+.shahin_navbar li a:after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 0%;
+    left: 15px;
+    ;
+    bottom: 15px;
+    transform: scale(0);
+    background: #ff4c4c;
+    transition: all linear .3s;
+}
+
+.shahin_navbar li a:before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 0%;
+    right: 15px;
+    top: 15px;
+    transform: scale(0);
+    background: #ff4c4c;
+    transition: all linear .3s;
+}
+
+.shahin_navbar li a:hover,
+.shahin_navbar li.active,
+.shahin_navbar li.active a {
+    color: #ff4c4c !important;
+    background: transparent !important;
+}
+
+.shahin_navbar li a:hover::after {
+    transform: scale(1);
+    transition: all linear .3s;
+    width: 25%;
+}
+
+.shahin_navbar li a:hover::before {
+    transform: scale(1);
+    transition: all linear .3s;
+    width: 25%;
+}
+
+.shahin_navbar li a:focus {
+    background-color: transparent !important;
+}
+
+.shahin_navbar li.active a::after {
+    transform: scale(1);
+    width: 25%;
+}
+
+.shahin_navbar li.active a::before {
+    transform: scale(1);
+    width: 25%;
+}
+
+nav .navbar-fixed-top {
+    top: 0;
+    border-width: 0px;
+}
+/* menu part end */
+
+
+/* about part start */
+
+#about {
+    background: #f5f5f5;
+}
+
+.common_hedding h2 {
+    color: #ff4c4c;
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-family: 'Great Vibes', cursive;
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.common_hedding img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0px 0px 60px 0px;
+}
+
+.love_story h4,
+.coule_about h3 {
+    color: #333333;
+    font-size: 34px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+}
+
+.coule_about h3 span {
+    color: #ff4c4c;
+}
+
+.love_story p,
+.coule_about p {
+    color: #333333;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+}
+
+.coule_about ul li {
+    float: left;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    margin: 0px 10px;
+    background: transparent;
+    border: 1px solid #ff4c4c;
+    transform: rotate(45deg);
+    transition: all linear .3s;
+}
+
+.coule_about ul li a i {
+    line-height: 35px;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    color: #ff4c4c;
+    left: 30%;
+    transform: translatex(-50%);
+    transform: rotate(-45deg);
+}
+
+.coule_about ul li:hover {
+    background: #ff4c4c;
+    transition: all linear .3s;
+}
+
+.coule_about ul li:hover a i {
+    color: #f1f1f1;
+}
+
+.coule_about2 ul {
+    float: right;
+}
+
+.coule_about2 ul li a i {
+    left: -27%;
+}
+
+.coule_about img {
+    border: 2px solid #ff4c4c !important;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/* about part end */
+
+
+/* love part start */
+
+#love {
+    background: url(../images/love_banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#love.padd_100 {
+    padding: 60px 0 53px;
+}
+
+.common_hedding2 img {
+    margin: 0 0 49px;
+}
+
+.ovelay_love {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.love_story {
+    position: relative;
+}
+
+.love_story::after {
+    background: #ff4c4c none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: -40px;
+    top: 49px;
+    width: 56px;
+}
+
+.off_bot::after {
+    height: 0px;
+}
+
+.love_clc {
+    height: 100px;
+    width: 100px;
+    background: transparent;
+    border: 2px solid #ff4c4c;
+    transform: rotate(45deg);
+    margin-bottom: 50px;
+    position: relative;
+    left: 18%;
+}
+
+.love_cl {
+    height: 90px;
+    width: 90px;
+    transform: rotate(-45deg);
+}
+
+.love_cl i {
+    line-height: 90px;
+    font-size: 60px;
+    color: #ff4c4c;
+}
+
+.love_story:hover .love_clc {
+    background: #ff4c4c;
+}
+
+.love_story:hover .love_cl i {
+    color: #f1f1f1;
+}
+
+.love_story p {
+    color: #ddd;
+    margin-bottom: 15px;
+}
+
+.love_story h4 {
+    color: #f1f1f1;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+
+/* love part end */
+
+
+/* Gallery part start */
+
+#gallery {}
+
+#gallery.padd_50 {
+    padding: 101px 0 69px;
+}
+
+.common_hedding3 img {
+    margin: 0 0 59px;
+}
+
+.portfolio-inner img {
+    margin-bottom: 30px;
+}
+
+.port-img {
+    position: relative;
+}
+
+.port-overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(255, 76, 76, 0.8);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    opacity: 0;
+}
+
+.port-overlay i {
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 20px;
+    color: #ff4c4c;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+}
+
+.port-img:hover .port-overlay {
+    opacity: 1;
+    bottom: 0;
+    height: 100%;
+}
+
+
+/* Gallery part end */
+
+
+/* Wedding Plan part stat */
+
+#Wedding_Plan {
+    background: url(../images/plan_banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#Wedding_Plan.padd_85 {
+    padding: 62px 0 41px;
+}
+
+.overlay_plan {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.common_hedding4 img {
+    margin: 0 0 39px;
+}
+
+.weddi_plan {
+    width: 250px;
+    height: 250px;
+    margin: 70px 0px;
+}
+
+.weddin_plan {
+    width: 230px;
+    height: 230px;
+}
+
+.weddi_plan:hover .weddin_plan h5 {
+    color: #f1f1f1;
+    transition: all linear .3s;
+}
+
+.weddin_plan h5 {
+    color: #ff4c4c;
+    font-size: 24px;
+    text-transform: capitalize;
+    line-height: 26px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    transition: all linear .3s;
+}
+
+.blog_Wedding h3,
+.weddin_plan h3 {
+    color: #f1f1f1;
+    font-size: 28px;
+    text-transform: capitalize;
+    line-height: 35px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 15px;
+}
+
+.blog_Wedding h5,
+.blog_Wedding p,
+.weddin_plan p {
+    color: #ddd;
+    font-size: 14px;
+    text-transform: capitalize;
+    line-height: 26px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.weddin_plan p i {
+    font-size: 16px;
+    line-height: 0px;
+    margin-right: 5px;
+}
+
+.wedd_plan::after {
+    position: absolute;
+    content: "";
+    right: -45px;
+    top: 124px;
+    height: 2px;
+    width: 40px;
+    background: #ff4c4c;
+}
+
+.off_bot2::after {
+    height: 0;
+}
+
+
+/* Wedding Plan part end */
+
+
+/* Wedding Journal part start */
+
+#Wedding_Journal.padd_100 {
+    padding: 101px 0 100px;
+}
+
+.common_hedding7 img {
+    margin: 0 0 59px;
+}
+
+.blog_Wedding {
+    background: #f8f8f8;
+    padding-bottom: 50px;
+    transition: all linear .3s;
+}
+
+.blog_Wedding img {
+    border: 2px solid #ff4c4c !important;
+    border-bottom: 0px !important;
+    border-top: 2px solid #ff4c4c !important;
+}
+
+.blog_Wedding h3 {
+    color: #333333;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+
+.blog_Wedding h5 {
+    font-size: 15px;
+    color: #444444;
+    margin-bottom: 10px;
+}
+
+.blog_Wedding p {
+    color: #777777;
+    margin: 0px 20px 0px;
+    padding-bottom: 30px;
+}
+
+.blog_Wedding a {
+    padding: 10px 15px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid #ff4c4c;
+    color: #ff4c4c;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.blog_Wedding:hover {
+    background: #ff4c4c;
+    transition: all linear .3s;
+}
+
+.blog_Wedding:hover a {
+    border-color: #fff;
+    color: #f1f1f1;
+}
+
+.blog_Wedding:hover h3 {
+    color: #f1f1f1;
+}
+
+.blog_Wedding:hover h5 {
+    color: #f1f1f1;
+}
+
+.blog_Wedding:hover p {
+    color: #f1f1f1;
+}
+
+
+/* Wedding Journal part end */
+
+
+/* message part start */
+
+#message {
+    background: url(../images/banner-mess.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#message.padd_75_100 {
+    padding: 37px 0 35px;
+}
+
+.ovelay_mass {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#message h2 {
+    font-size: 60px;
+    color: #f1f1f1;
+    line-height: 90px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* message part end */
+
+
+/* friends part start */
+
+#friends {}
+
+#friends.padd_75_20 {
+    padding: 101px 0 24px;
+}
+
+.common_hedding5 {
+    margin-bottom: 70px;
+}
+
+.common_hedding5 img {
+    margin: 0 0 50px;
+}
+
+.friends_part {
+    position: relative;
+    padding: 50px 0px 40px;
+    background: #f8f8f8;
+    transition: all linear .3s;
+}
+
+.friend_img {
+    position: absolute;
+    left: 50%;
+    top: -25%;
+    height: 150px;
+    width: 150px;
+    transform: translateX(-50%);
+    transition: all linear .3s;
+    z-index: 999999;
+}
+
+.friend_img img {
+    border-radius: 50%;
+    border: 2px solid transparent!important;
+    transition: all linear .3s;
+}
+
+.friends_part:hover .friend_img img {
+    border: 2px solid #ff4c4c !important;
+}
+
+.friends_part h4 {
+    font-size: 20px;
+    color: #333333;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.friends_part p {
+    font-size: 14px;
+    color: #333333;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+}
+
+.friends_part ul {
+    text-align: center;
+}
+
+.friends_part ul li {
+    display: inline-block;
+}
+
+.friends_part ul li a {
+    display: block;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #ff4c4c;
+    line-height: 30px;
+    transform: rotate(45deg);
+    margin: 0px 10px;
+}
+
+.friends_part ul li a i {
+    transform: rotate(-45deg);
+    color: #ff4c4c;
+    font-size: 14px;
+}
+
+.friends_part:hover {
+    background: #ff4c4c;
+    transition: all linear .3s;
+}
+
+.friends_part:hover ul li a i,
+.friends_part:hover ul li a {
+    border-color: #f1f1f1;
+    color: #f1f1f1;
+}
+
+.friends_part:hover h4,
+.friends_part:hover p {
+    color: #f1f1f1;
+}
+
+.auto_team .slick-list {
+    padding-top: 75px;
+    transform: translateY(-75px);
+}
+
+.padd_100_50 {
+    padding: 100px 0px 23px;
+}
+
+
+/* friends part end */
+
+
+/* contact part start */
+
+#contact {
+    background: url(../images/banner_mess.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#contact.padd_100 {
+    padding: 61px 0 60px;
+}
+
+.overlay_con {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#contact .common_hedding img {
+    margin: 0 0 54px;
+}
+
+.contact_about h5 {
+    font-size: 18px;
+    color: #ff4c4c;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 15px;
+}
+
+.contact_about h3 {
+    font-size: 24px;
+    color: #f1f1f1;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 15px;
+}
+
+.contact_about p {
+    font-size: 14px;
+    color: #ddd;
+    line-height: 26px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 15px;
+}
+
+.contact_about h2 {
+    font-size: 30px;
+    color: #ff4c4c;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.befe {
+    position: relative;
+}
+
+.befe:after {
+    position: absolute;
+    content: '';
+    right: 21px;
+    top: 60px;
+    background: #f8f8f8;
+    height: 170px;
+    width: 1px;
+}
+
+.contact_about ul {}
+
+.contact_about ul li a {
+    float: left;
+    height: 25px;
+    width: 25px;
+    border: 1px solid #ff4c4c;
+    line-height: 25px;
+    transform: rotate(45deg);
+    margin: 20px 10px;
+    display: block;
+}
+
+.contact_about ul li a i {
+    transform: rotate(-45deg);
+    color: #ff4c4c;
+    font-size: 14px;
+    margin-left: 6px;
+}
+
+.contact_about ul li a:hover i {
+    color: #f1f1f1;
+}
+
+.contact_about ul li:hover a {
+    background: #ff4c4c;
+    transition: all linear .3s;
+}
+
+
+/*shahin_from start*/
+
+.shahin_from .col-md-6 input {
+    width: 100%;
+    color: #fff;
+    background: none;
+    border: none;
+    box-shadow: none;
+    height: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #eee;
+    padding-left: 8px;
+}
+
+.shahin_from .col-md-12 textarea {
+    width: 100%;
+    color: #fff;
+    background: none;
+    border: none;
+    box-shadow: none;
+    height: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #eee;
+    padding-left: 8px;
+    resize: none;
+    text-transform: capitalize
+}
+
+.shahin_from .col-md-12 .sub-btn {
+    color: #f1f1f1;
+    background: none;
+    box-shadow: none;
+    border: none;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    padding: 8px 15px;
+    border: 1px solid;
+    margin-top: 10px;
+    text-transform: capitalize;
+    transform: translateX(-50%);
+    left: 50%;
+    position: relative;
+}
+
+.shahin_from .col-md-12 textarea:hover,
+.shahin_from .col-md-12 textarea:focus,
+.shahin_from .col-md-6 input:hover,
+.shahin_from .col-md-6 input:focus {
+    border-color: #ff4c4c;
+    color: #ff4c4c;
+}
+
+.shahin_from .col-md-12 .sub-btn:hover {
+    border-color: #ff4c4c;
+    color: #ff4c4c;
+}
+
+
+/* contact part end */
+
+
+/* footer part start */
+
+footer {
+    background: #f8f8f8;
+    padding: 25px 0px;
+    border-top: 2px solid #ff4c4c;
+}
+
+footer h4 {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+}
+
+footer h4 a {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer h4 a:hover {
+    color: #ff4c4c;
+}
+
+
+/* footer part end */
+
+
+/* back to top part start */
+
+.back-to-top {
+    bottom: 50px;
+    position: fixed;
+    right: 30px;
+}
+
+.back-to-top i {
+    background: #ff4c4c none repeat scroll 0 0;
+    border-radius: 4px;
+    color: #f1f1f1;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 6px 10px;
+}
+
+
+/* back to top part end */
+
+
+/* responsive @media css part start */
+
+
+/* media start of large/1200px */
+
+@media(min-width:992px) and (max-width:1200px) {
+    body {
+        overflow-x: hidden;
+    }
+    .skdslider {
+        height: 576px;
+    }
+    .slide-desc h2 {
+        font-size: 42px !important;
+    }
+    .slide-desc .clor h6,
+    .slide-desc h3 {
+        font-size: 27px;
+    }
+    .shahin_navbar li a {
+        padding: 0 10px;
+    }
+    .shahin_navbar li a::before {
+        right: 10px;
+    }
+    .shahin_navbar li a::after {
+        left: 10px;
+    }
+    .love_story h4,
+    .coule_about h3 {
+        font-size: 38px;
+    }
+    .love_story::after {
+        right: -34px;
+        top: 49.5px;
+        width: 22px;
+    }
+    .love_story h4 {
+        font-size: 18px;
+        margin-bottom: 0;
+        line-height: 34px;
+    }
+    .weddi_plan {
+        height: 200px;
+        margin: 70px 0;
+        width: 200px;
+    }
+    .weddin_plan h5 {
+        font-size: 19px;
+        margin-bottom: 10px;
+        margin-top: -15px;
+    }
+    .blog_Wedding h3,
+    .weddin_plan h3 {
+        font-size: 19px;
+        line-height: 35px;
+        margin-bottom: 5px;
+    }
+    .wedd_plan::after {
+        right: -43px;
+        top: 99px;
+        width: 43px;
+    }
+    .blog_Wedding img {
+        height: 233px;
+    }
+}
+
+
+/* media ends of large/1200px */
+
+
+/* media start of tab/991px */
+
+@media(min-width:768px) and (max-width:991px) {
+    .padd_100 {
+        padding: 60px 0px;
+    }
+    .padd_50 {
+        padding: 45px 0px;
+    }
+    #home {
+        /*margin-top: -350px;*/
+    }
+    .skdslider {
+        height: 470px;
+    }
+    .slide-desc {
+        transform: translateX(-50%) translateY(50%);
+    }
+    .slide-desc .col-md-6 .countDown3 .col-md-3,
+    .slide-desc .col-md-6 .countDown2 .col-md-3,
+    .slide-desc .col-md-6 .countDown1 .col-md-3 {
+        padding: 10px 14px;
+        display: inline-block;
+    }
+    .slide-desc .col-md-6 .countDown3 .col-md-3 h6,
+    .slide-desc .col-md-6 .countDown2 .col-md-3 h6,
+    .slide-desc .col-md-6 .countDown1 .col-md-3 h6 {
+        font-size: 16px;
+    }
+    .slide-desc .clor .col-md-3:before {
+        top: 25px;
+    }
+    .slide-desc h3 {
+        font-size: 20px;
+    }
+    .slide-desc h2 {
+        font-size: 30px !important;
+        line-height: 60px;
+    }
+    .slide-desc p {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    .navbar-brand > img {
+        margin-top: -5px;
+        width: 40px;
+    }
+    .shahin_navbar li a {
+        font-size: 13px;
+        padding: 0px 4px;
+        line-height: 50px;
+    }
+    .shahin_navbar li a::before {
+        right: 5px;
+        height: 1px;
+    }
+    .shahin_navbar li a::after {
+        left: 5px;
+        height: 1px;
+    }
+    #about.padd_100 {
+        padding: 40px 0 54px;
+    }
+    .coule_about img {
+        height: 200px;
+        width: 200px;
+        margin-top: 55px;
+    }
+    .love_story h4,
+    .coule_about h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .love_story p,
+    .coule_about p {
+        font-size: 13px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    .common_hedding h2 {
+        font-size: 42px;
+    }
+    .coule_about ul li {
+        height: 25px;
+        width: 25px;
+        line-height: 25px;
+        margin: 0px 8px;
+    }
+    .coule_about ul li a i {
+        line-height: 25px;
+        font-size: 14px;
+        left: 22%;
+    }
+    .coule_about2 ul li a i {
+        left: -24%;
+    }
+    .love_clc {
+        height: 80px;
+        width: 80px;
+        margin-bottom: 30px;
+        left: 7%;
+    }
+    .love_cl {
+        height: 60px;
+        width: 60px;
+    }
+    .love_cl i {
+        line-height: 80px;
+        font-size: 40px;
+    }
+    .love_story::after {
+        right: -19px;
+        top: 40px;
+        width: 6px;
+    }
+    .love_story h4 {
+        font-size: 17px;
+        margin-bottom: 0px;
+        line-height: 26px;
+    }
+    .love_story p {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    .padd_85 {
+        padding: 45px 0;
+    }
+    .weddi_plan {
+        height: 160px;
+        width: 160px;
+        margin-top: 15px;
+        margin-bottom: 50px;
+        margin-left: 15px;
+    }
+    .weddin_plan h5 {
+        font-size: 14px;
+        margin-bottom: 5px;
+        padding-top: 55px;
+    }
+    .weddin_plan h3 {
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 5px;
+        margin-left: -8px;
+    }
+    .off_bot2 .weddin_plan h3 {
+        font-size: 14px;
+    }
+    .love_story p {
+        font-size: 9px;
+        margin-bottom: 5px;
+        display: none;
+    }
+    .love_story::after {
+        right: -21px;
+        top: 39px;
+        width: 13px;
+    }
+    .wedd_plan::after {
+        right: -28px;
+        top: 79px;
+        width: 26px;
+    }
+    .blog_Wedding h3 {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .blog_Wedding h5 {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .blog_Wedding {
+        padding-bottom: 35px;
+    }
+    #message h2 {
+        font-size: 38px;
+        line-height: 50px;
+    }
+    .auto_team {
+        margin-bottom: -70px;
+    }
+    .auto_team .slick-list {
+        padding-top: 140px;
+    }
+    .friends_part {
+        padding: 50px 0 30px;
+    }
+    .padd_75_20 {
+        padding: 44px 0 49px;
+    }
+    .friends_part ul li a {
+        margin: 0px 7px;
+    }
+    .contact_about h5 {
+        font-size: 16px;
+        margin-top: 8px;
+    }
+    .contact_about h3 {
+        font-size: 21px;
+        margin-top: 15px;
+    }
+    .contact_about p {
+        font-size: 13px;
+        line-height: 24px;
+        margin-top: 15px;
+    }
+    .befe::after {
+        right: 12px;
+    }
+    .contact_about h2 {
+        font-size: 24px;
+    }
+    .contact_about h3 {
+        font-size: 18px;
+    }
+    .shahin_from .col-md-12 textarea,
+    .shahin_from .col-md-6 input {
+        font-size: 12px;
+    }
+    #love.padd_100 {
+        padding: 32px 0 32px;
+    }
+    #gallery.padd_50 {
+        padding: 41px 0 20px;
+    }
+    #Wedding_Plan.padd_85 {
+        padding: 30px 0 21px;
+    }
+    #Wedding_Journal.padd_100 {
+        padding: 51px 0 49px;
+    }
+    #message.padd_75_100 {
+        padding: 28px 0 27px;
+    }
+    #friends.padd_75_20 {
+        padding: 51px 0 43px;
+    }
+    #contact.padd_100 {
+        padding: 39px 0 40px;
+    }
+    .common_hedding img {
+        margin: 0px 0 31px;
+    }
+    .mar_b_90 {
+        margin-bottom: 51px;
+    }
+    .common_hedding3 img {
+        margin: 0 0 34px;
+    }
+    .common_hedding4 img {
+        margin: 0 0 64px;
+    }
+    .common_hedding7 img {
+        margin: 0 0 34px;
+    }
+    .common_hedding5 img {
+        margin: 0 0 -42px;
+    }
+    #contact .common_hedding img {
+        margin: 0 0 29px;
+    }
+    footer {
+        padding: 20px 0;
+    }
+    .back-to-top {
+        right: 11px;
+    }
+}
+
+
+/* media ends of tab/991px */
+
+
+/* media start of mobile/767px */
+
+@media(max-width:767px) {
+    .padd_50 {
+        padding: 45px 0px 20px;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    nav {
+        background: #fff;
+    }
+    /*.nav-wrapper{
+        height: 53px;
+    }*/
+    .navbar-brand > img {
+        margin-top: -7px;
+        width: 40px;
+    }
+    .shahin_navbar li a {
+        text-align: center;
+        line-height: 40px;
+    }
+    .shahin_navbar li a::before {
+        right: 50%;
+        width: 0;
+    }
+    .shahin_navbar li a::after {
+        left: 50%;
+        width: 0;
+    }
+    .shahin_navbar li a:hover::before {
+        width: 0;
+    }
+    .shahin_navbar li a:hover::after {
+        width: 0;
+    }
+    .shahin_navbar li.active a::before {
+        transform: scale(0);
+        width: 0%;
+    }
+    .shahin_navbar li.active a::after {
+        transform: scale(0);
+        width: 0%;
+    }
+    .padd_100 {
+        padding: 50px 0px;
+    }
+    #home {
+        margin-top: 0px;
+    }
+    .skdslider {
+        height: 750px;
+    }
+    .mar-500 {
+        margin-top: -230px;
+    }
+    .countDown1 .col-md-3 {
+        width: 50%;
+    }
+    .slide-desc .clor .col-md-3.ma_r:before {
+        height: 0;
+    }
+    .slide-desc .clor h6,
+    .slide-desc h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .clor {
+        margin-bottom: 50px;
+    }
+    .slide-desc h2 {
+        font-size: 22px !important;
+        line-height: 43px;
+    }
+    .padd_l_f {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .cont h3 {
+        font-size: 15px !important;
+    }
+    .slide-desc p {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    .common_hedding h2 {
+        font-size: 35px;
+        margin: 10px 0px 10px 0px;
+    }
+    .common_hedding img {
+        margin-bottom: 50px;
+    }
+    .love_story h4,
+    .coule_about h3 {
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+    .coule_about img {
+        height: 200px;
+        width: 200px;
+        margin: 100px 0px 40px;
+        position: relative;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+    .common_hedding2 h2 {
+        margin-bottom: 5px;
+    }
+    .love_story::after {
+        height: 0px;
+    }
+    .love_story {
+        margin-bottom: 50px;
+    }
+    .mrb_0 {
+        margin-bottom: 0px;
+    }
+    .love_clc {
+        position: relative;
+        left: 33%;
+        margin-bottom: 35px;
+    }
+    .love_story p {
+        color: #ddd;
+        margin-bottom: 8px;
+    }
+    /* gallery */
+    .portfolio-imag {
+        padding-bottom: 0;
+    }
+    .common_hedding4 {
+        margin-bottom: 0px;
+    }
+    #Wedding_Plan {
+        padding-bottom: 105px;
+        padding: 35px;
+    }
+    .wedd_plan {
+        width: 160px;
+        left: 50%;
+        transform: translate(-50%);
+        margin-bottom: 98px;
+    }
+    .weddi_plan {
+        width: 150px;
+        height: 150px;
+        margin: 80px 0px 100px;
+        left: -12%;
+        margin-bottom: 21px;
+        position: relative;
+        transform: rotate(45deg) translateX(23%);
+    }
+    .weddi_plan:first-child {
+        margin-top: 20px;
+    }
+    .weddi_plan:last-child {
+        margin-bottom: 70px;
+    }
+    .weddin_plan h5 {
+        font-size: 16px;
+        margin-bottom: 10px;
+        padding-top: 0px;
+    }
+    .blog_Wedding h3,
+    .weddin_plan h3 {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+    .weddin_plan p {
+        font-size: 13px;
+        margin-bottom: 8px;
+        line-height: 20px;
+    }
+    .pab_0 {
+        padding-bottom: 0;
+    }
+    .blog_Wedding h3 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 5px;
+    }
+    .blog_Wedding img {
+        max-height: 172px;
+        width: 100%;
+    }
+    #message h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .padd_75_20 {
+        padding: 26px 0 25px;
+    }
+    .auto_team .slick-list {
+        padding-top: 100px;
+        transform: translateY(-75px);
+    }
+    .auto_team {
+        margin-bottom: -70px;
+    }
+    .friends_part {
+        padding: 50px 0 36px;
+    }
+    .befe::after {
+        width: 0px;
+    }
+    .contact_about {
+        margin-bottom: 40px;
+    }
+    #contact .shahin_from {
+        margin-top: 90px;
+    }
+    footer h4 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    #about.padd_100 {
+        padding: 30px 0 46px;
+    }
+    #love.padd_100 {
+        padding: 32px 0 20px;
+    }
+    #gallery.padd_50 {
+      padding: 31px 0 10px;
+    }
+    #Wedding_Plan.padd_85 {
+      padding: 30px 0 0;
+    }
+    .wedd_plan:last-child {
+      margin-bottom: 94px;
+    }
+    #Wedding_Journal.padd_100 {
+      padding: 31px 0 39px;
+    }
+    #message.padd_75_100 {
+      padding: 30px 0 31px;
+    }
+    #friends.padd_75_20 {
+      padding: 29px 0 35px;
+    }
+    #contact.padd_100 {
+      padding: 30px 0 40px;
+    }
+    .common_hedding img {
+      margin-bottom: 25px;
+    }
+   .common_hedding2 img {
+      margin-bottom: 55px;
+    }
+    .common_hedding3 img {
+      margin-bottom: 34px;
+    }
+    .common_hedding4 img {
+      margin-bottom: 40px;
+    }
+    .common_hedding7 img {
+      margin-bottom: 35px;
+    }
+    .common_hedding5 img {
+        margin-bottom: 21px;
+    }
+    #contact .common_hedding img {
+      margin: 0 0 33px;
+    }
+    .contact_about h2 {
+        padding-bottom: 0px;
+    }
+    .contact_about {
+        margin-bottom: 12px;
+    }
+    .contact_about ul li a {
+        margin: 11px 10px;
+    }
+    #contact .shahin_from {
+        margin-top: 60px;
+    }
+    .shahin_from .col-md-6 input {
+        width: 111%;
+        margin-left: -15px;
+    }
+    .shahin_from .col-md-12 textarea {
+        width: 111%;
+        margin-left: -15px;
+    }
+    .back-to-top {
+        right: 7px;
+    }
+    footer {
+      padding: 15px 0;
+    }
+   
+}
+
+
+/* media start of mobile/480px */
+
+@media(min-width:321px) and (max-width:480px) {
+    .padd_100 {
+        padding: 40px 0px 50px;
+    }
+    #home {
+        margin-top: 0px;
+    }
+    .skdslider {
+        height: 800px;
+    }
+    .mar-500 {
+        margin-top: -210px;
+    }
+    .slide-desc h2 {
+        font-size: 32px !important;
+    }
+    .common_hedding4 {
+        margin-bottom: -33px;
+    }
+    .love_clc {
+        left: 39.5%;
+        margin-bottom: 35px;
+        position: relative;
+    }
+    .weddi_plan {
+        left: -10%;
+        transform: rotate(45deg) translateX(23%);
+    }
+    .blog_Wedding {
+        width: 80%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .friends_part {
+        padding: 50px 0 36px;
+        width: 60%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .shahin_from .col-md-6 input {
+        margin-left: -15px;
+        width: 107%;
+    }
+    .shahin_from .col-md-12 textarea {
+        margin-left: -15px;
+        width: 107%;
+    }
+    #contact .common_hedding img {
+        margin: 0 0 60px;
+    }
+    .contact_about ul li a {
+        margin: 20px 10px;
+    }
+    .contact_about {
+        margin-bottom: 21px;
+    }
+    .common_hedding4 img {
+        margin-bottom: 69px;
+    }
+    #contact .shahin_from {
+        margin-top: 80px;
+    }
+    .common_hedding img {
+      margin-bottom: 30px;
+    }
+    .mar_b_90 {
+      margin-bottom: 53px;
+    }
+    .common_hedding3 img {
+      margin-bottom: 35px;
+    }
+    .common_hedding4 img {
+      margin-bottom: 73px;
+    }
+    #contact .common_hedding img {
+      margin: 0 0 65px;
+    }
+    .weddi_plan {
+      left: -12%;
+    }
+}
